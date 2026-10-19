@@ -136,7 +136,7 @@ Aplikasi mendeteksi sistem operasinya sendiri, jadi kode yang sama berjalan di k
 
 ## 👤 Pengembang
 
-**M Fadhillah Al Faruq** — HC Officer, Recruitment & Database.
+**Fadhillah Al Faruq** — HC Officer, Recruitment & Database.
 Dibangun untuk menyelesaikan pekerjaan administrasi HR yang berulang, dengan prinsip:
 sederhana, mudah dirawat, dan fokus pada akurasi data.
 
