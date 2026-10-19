@@ -83,7 +83,7 @@ def render_sidebar() -> tuple[bytes | None, Path | None]:
 
     st.sidebar.divider()
     engine = get_pdf_engine()
-    st.sidebar.markdown(f"**Mesin PDF:** {engine or 'tidak tersedia (hasil berupa Word)'}")
+    st.sidebar.markdown(f"**Mesin PDF:** {engine or 'Word saja di demo online (PDF aktif di versi Windows)'}")
     if IS_DEMO_MODE:
         st.sidebar.warning("🌐 Mode demo online. Jangan upload data pekerja asli.")
     st.sidebar.caption(f"Versi {APP_VERSION}")
@@ -240,7 +240,9 @@ def main() -> None:
     if IS_DEMO_MODE:
         st.info(
             "**Versi demo publik** — memakai data & template fiktif. Versi produksi berjalan "
-            "di Windows (localhost) dengan konversi PDF lewat Microsoft Word."
+            "di Windows (localhost) dengan konversi PDF lewat Microsoft Word.\n\n"
+            "💡 **Coba ini:** ubah **Sampai No Data** menjadi **25** untuk melihat validasi "
+            "memblokir 5 data yang sengaja dibuat salah."
         )
 
     excel_bytes, template_path = render_sidebar()
