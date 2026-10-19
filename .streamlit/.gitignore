@@ -1,0 +1,24 @@
+# Jangan pernah meng-upload data pekerja asli.
+*.xlsx
+*.xls
+*.docx
+*.pdf
+!data/contoh_data_pekerja.xlsx
+!templates/contoh_template_pkwt.docx
+
+output/*
+logs/*
+Hasil_PDF/
+Temp_Word/
+~$*
+
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+.streamlit/secrets.toml
+.env
+.vscode/
+.DS_Store
+Thumbs.db
