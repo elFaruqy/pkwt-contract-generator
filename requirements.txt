@@ -1,0 +1,10 @@
+streamlit>=1.50
+pandas>=2.0
+openpyxl>=3.1
+docxtpl>=0.18
+python-docx>=1.1
+
+# Khusus Windows (konversi PDF lewat Microsoft Word).
+# Otomatis dilewati saat di-install di Linux, mis. Streamlit Community Cloud.
+docx2pdf>=0.1.8; sys_platform == "win32"
+pywin32>=306; sys_platform == "win32"
