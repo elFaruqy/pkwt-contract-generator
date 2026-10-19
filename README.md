@@ -1,7 +1,7 @@
 # 📄 PKWT Contract Generator
 
 <!-- Ganti LINK_DEMO dan LINK_VIDEO setelah deploy & upload video (lihat PANDUAN_PORTOFOLIO.md) -->
-[![Live Demo](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](LINK_DEMO)
+[![Live Demo](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://pkwt-app-demo.streamlit.app/)
 &nbsp; 🎬 [Video Demo (2 menit)](LINK_VIDEO)
 
 > **Overview (EN):** An internal HR tool that bulk-generates fixed-term employment contracts (PKWT)
